@@ -15,6 +15,7 @@
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 40px;
+    cursor: pointer;
 }   
 
 /* Header Style  */
@@ -25,7 +26,7 @@ header{
 .header-nav{
     display: flex;
     justify-content: space-between;
-    font-size: 3rem;
+    font-size: 42px;
     align-items: center;
 }
 .nav-title{
@@ -41,7 +42,7 @@ header{
     text-decoration: none;
 }
 .header-nav-list li{
-    padding-right: 70px;
+    padding-right: 50px;
     color: #424244 ;
     text-align: center;
     font-size: 18px;
@@ -64,4 +65,70 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
+}
+.banner img{
+    width: 100%;
+}
+
+/* Main Part  */
+.main-part{
+    margin: 50px 300px;
+}
+.main-part-inner{
+    display: flex;
+    justify-content: space-around;
+}
+.main-part-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.main-part-content{
+    max-width: 500px;
+}
+.part-one-title{
+    max-width: 400px;
+    color: #131313;
+    font-size: 42px;
+    font-weight: 700;
+}
+.colored-text1{
+    color: #727272;
+    font-size: 42px;
+    font-weight: 500;
+}
+.colored-text2{
+    color: #FF900E;
+    font-weight: 700;
+}
+.part-one-disc{
+    color: var(--Dark-03, #727272);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* Responsive Styles */
+/* Mobile  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 5px;
+    }
+    /* .header-nav{
+        flex-direction: column;
+    } */
+    .header-nav{
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:577px) and (max-width: 960px){
+    header{
+        padding: 30px;
+    }
+    .header-nav{
+        flex-direction: column;
+    }
 }
