@@ -1,3 +1,67 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Shared Style  */
+.btn-prm{
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}   
+
+/* Header Style  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    align-items: center;
+}
+.nav-title{
+    align-items: center;
+    color: #131313;
+}
+.header-nav-list{
+    display: flex;
+    list-style: none;
+    text-align: center;    
+}
+.header-nav a{
+    text-decoration: none;
+}
+.header-nav-list li{
+    padding-right: 70px;
+    color: #424244 ;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px; 
+}
+/* Banner Styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-disc{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
